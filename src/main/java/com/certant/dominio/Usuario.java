@@ -3,6 +3,7 @@ package com.certant.dominio;
 import java.util.ArrayList;
 
 public class Usuario {
+	private int id;
     private String _nombre;
     private String _clave;
     private ArrayList<Pokemon> pokemones;

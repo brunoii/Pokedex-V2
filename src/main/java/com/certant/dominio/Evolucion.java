@@ -3,6 +3,7 @@ package com.certant.dominio;
 import java.util.ArrayList;
 
 public class Evolucion {
+	private int id;
     private String _nombre;
     private int _nivelEvolucion;
     private ArrayList<Tipo> _tipos;
